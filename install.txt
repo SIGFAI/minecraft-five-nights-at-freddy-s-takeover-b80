@@ -1,0 +1,1 @@
+Copy the mod jar into your Minecraft Fabric mods folder (Fabric Loader and Fabric API required) and start a world. A pizzeria appears around you and the night shift begins: watch the animatronics, close the office door, and survive until 6 AM.

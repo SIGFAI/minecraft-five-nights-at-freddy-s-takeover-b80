@@ -1,0 +1,7 @@
+Moments the clip must show (all seen in preview, ticked):
+[x] 1. The haunted pizzeria with the band on stage under the glowing FREDDY'S sign, clock at 12 AM, night title.
+[x] 2. Player looks away: the animatronics creep closer; player looks back: they are frozen mid-step ("They only move when you look away").
+[x] 3. Sword hits on Foxy and Bonnie: sparks, clang, knockback; they can be killed.
+[x] 4. Jump scare screen when one catches the player; blast door closed against Chica and Bonnie, power draining on the HUD.
+[x] 5. 6 AM: chime, confetti, "You survived night 1"; night 2 with flashlight beam and plush honk.
+Weak: the player often ends up very close to the huge animatronics, so some frames are mostly body.
