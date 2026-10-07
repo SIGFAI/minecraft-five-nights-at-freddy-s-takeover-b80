@@ -1,0 +1,73 @@
+{
+  "id": "sigf/minecraft-five-nights-at-freddy-s-takeover-b80",
+  "version": "1.0.0",
+  "name": "Five Nights at Freddy's Takeover",
+  "tagline": "Bring Five Nights at Freddy's into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "minecraft",
+      "role": "host",
+      "engine": "Minecraft Java 26.3 + Fabric Loader 0.19.5 + Fabric API (Java 25, Mojang names)",
+      "mc": "26.3",
+      "loader": "fabric@0.19.5"
+    },
+    {
+      "game": "fivenightsatfreddys",
+      "role": "guest",
+      "label": "Five Nights at Freddy's",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "fabric-loader"
+    }
+  ],
+  "install": [
+    {
+      "game": "minecraft",
+      "strategy": "mrpack",
+      "pack": {
+        "src": "minecraft-five-nights-at-freddy-s-takeover-b80.mrpack",
+        "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b80/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b80.mrpack",
+        "sha256": "b0ae839907df8966c14afc57c73e4dba5991b4633e41df5772e95c18eac07e45",
+        "size": 1570098
+      }
+    }
+  ],
+  "launch": [
+    {
+      "game": "minecraft",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "minecraft-five-nights-at-freddy-s-takeover-b80.mrpack",
+      "url": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b80/releases/download/v1.0.0/minecraft-five-nights-at-freddy-s-takeover-b80.mrpack",
+      "sha256": "b0ae839907df8966c14afc57c73e4dba5991b4633e41df5772e95c18eac07e45",
+      "size": 1570098
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/minecraft-five-nights-at-freddy-s-takeover-b80",
+    "license": "MIT"
+  },
+  "media": {
+    "clip": "https://sigf.ai/clips/2026-10-07-5da19c85.mp4"
+  },
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "minecraft",
+    "status": "draft"
+  },
+  "built_at": "2026-10-07T12:53:36.530Z",
+  "notes": [
+    "Copy the mod jar into your Minecraft Fabric mods folder (Fabric Loader and Fabric API required) and start a world. A pizzeria appears around you and the night shift begins: watch the animatronics, close the office door, and survive until 6 AM."
+  ]
+}
